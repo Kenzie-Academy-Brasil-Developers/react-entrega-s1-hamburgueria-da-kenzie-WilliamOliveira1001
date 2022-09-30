@@ -14,7 +14,7 @@ export const ProdutcsList = ({
         {filteredProducts.length !== 0 && (
           <div className="section-search-listProduct">
             <h1>
-              Resultados para:{" "}
+              Resultados para:
               {filteredProducts.length === 1 ? (
                 <span>{filteredProducts[0].name}</span>
               ) : (

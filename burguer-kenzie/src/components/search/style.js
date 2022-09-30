@@ -18,6 +18,7 @@ export const StyledSearch = styled.form`
     height: 100%;
     width: 312px;
     border: none;
+    outline: none;
   }
   @media (min-width: 700px){
     width: 365px;

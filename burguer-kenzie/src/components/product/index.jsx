@@ -9,7 +9,7 @@ export const Product = ({ id, img, name, category, price, handleClick }) => {
         <section>
           <h2>{name}</h2>
           <span>{category}</span>
-          <p>R$ {price}</p>
+          <p>R$ {price. toFixed(2)}</p>
         </section>
         <ButtonStyled onClick={() => handleClick(id)}>Adicionar</ButtonStyled>
       </Card>

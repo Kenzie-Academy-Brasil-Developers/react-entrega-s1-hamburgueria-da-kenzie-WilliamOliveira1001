@@ -10,7 +10,7 @@ export const CartTotal = ({ removeAll, currentSale }) => {
       <CartStyled>
         <div>
           <p>Total</p>
-          <span>R$ {totalPrice}</span>
+          <span>R$ {totalPrice. toFixed(2)}</span>
         </div>
         <button onClick={() => removeAll()}>Remover todos</button>
       </CartStyled>
